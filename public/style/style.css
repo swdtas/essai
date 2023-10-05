@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 22;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px; /* Taille de la police ajustée */
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; /* Taille de la police ajustée */
+}
+
+.presentation img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; /* Marge ajustée */
+}
+
+.presentation {
+    margin-top: 50px; /* Marge ajustée */
+    font-size: 24px; /* Taille de la police ajustée */
+}
+
+.contact-info {
+    color: white;
+    font-size: 16px; /* Taille de la police ajustée */
+}
+
+ul {
+    list-style-type: disc;
+    margin-top: 10px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.page {
+    font-weight: 200; /* La valeur de font-weight ne nécessite pas 'px' */
+    margin-top: 20px; /* Marge ajustée */
+}
+/* public/css/styles.css */
+
+section {
+    margin-top: 20px;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+
+input[type="email"],
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 100x;
+}
+
+button:hover {
+    background-color: #45a049;
+}
